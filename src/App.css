@@ -1,0 +1,74 @@
+
+/*--------Reset--------*/
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: black;
+  color:#fff;
+}
+
+button{
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  border: none;
+  font-weight: 900;
+}
+
+/*-----App----*/
+.app{
+  display: flex;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.app__title{
+  margin-top: 100px;
+  width: 300px;
+  text-shadow:3px 6px  skyblue;
+  text-align: center;
+  font-weight: 900;
+}
+
+.app__container{
+  margin: 10px;
+  background-image: url(../assets/rectangle1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+}
+
+.app__phrase{
+  text-align: center;
+  color: gray;
+  display: block;
+  padding: 10px 0px;
+}
+
+.app__btn{
+  background-color: skyblue;
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: gray;
+  border-radius: 10px;
+}
+
